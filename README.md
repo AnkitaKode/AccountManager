@@ -1,71 +1,74 @@
-# User Account Management Application
+# 💼 AccountManager
 
-## Project Overview
+A modern and responsive **React application** that allows users to **create, log in, and manage accounts**.  
+This lightweight app is built with **React (v16+)** and **Tailwind CSS**, featuring a clean UI, smooth navigation, and simple localStorage-based authentication.
 
-This project is a React application (V16+) that allows users to create and manage accounts. The application includes a login page, a registration page, and a page where users can view and edit their account information.
+---
 
-## Features
+## 🖼️ Preview
 
-- **User Registration**: New users can create an account.
-- **User Login**: Existing users can log in to their accounts.
-- **Account Management**: Users can view and edit their account details.
-- **Responsive Design**: The application is designed to be mobile-friendly.
-- **Error Handling**: Basic error handling for login and registration.
+<img width="1348" height="592" alt="image" src="https://github.com/user-attachments/assets/a0fbbe17-683a-4cbf-89ef-0b0163b5d889" />
 
-## Pages Overview
 
-1. **Login Page**
-   - Users enter their email and password to log in.
-   - On successful login, they are redirected to the Account Information page.
-   - A “Back to Home” button is present on the top-left corner.
+> 🧭 *Home screen displaying login and registration options.*
 
-2. **Registration Page**
-   - Users can create an account by entering an email and password.
-   - The account details are saved in localStorage.
-   - A “Back to Home” button is present on the top-left corner.
+---
 
-3. **Account Information Page**
-   - Displays the logged-in user’s email and password.
-   - Users can update their details, which are saved in localStorage.
-   - A “Back to Home” button is present on the top-left corner.
+## ✨ Features
 
-## Tech Stack
+- 📝 **User Registration** – Create new user accounts.
+- 🔐 **User Login** – Log in with existing credentials.
+- ⚙️ **Account Management** – View and edit your account details.
+- 💾 **Local Storage Support** – Data persists in browser storage.
+- 📱 **Responsive Design** – Fully mobile-friendly layout.
+- 🚨 **Error Handling** – Basic validation for login and registration inputs.
 
-- **Frontend**: React (V16+)
-- **Styling**: Tailwind
-- **State Management**: React's built-in hooks (`useState`, `useEffect`)
-- **Routing**: React Router for navigation
+---
 
-## Getting Started
+## 📄 Pages Overview
 
-To run the application locally, follow these steps:
+### 🏠 Home Page
+- Central hub with a **welcome message** and options to **Login** or **Register**.  
+- Buttons styled using Tailwind CSS with icons for better UX.  
+- Top navigation bar includes:
+  - **Home**
+  - **Login**
+  - **Sign Up**
 
-1. **Clone the repository**:
-   ```bash
-   git clone <your-repo-url>
-   cd <your-project-directory>
+### 🔑 Login Page
+- Allows users to enter **email** and **password**.  
+- On successful login, users are redirected to the **Account Information Page**.  
+- Includes a **“Back to Home”** button at the top-left corner.
 
-2. **Install the dependencies**:
-   ```bash
-   npm install
+### 🧾 Registration Page
+- Enables users to create an account using **email** and **password**.  
+- Details are stored in **localStorage** for demo purposes.  
+- Includes a **“Back to Home”** button at the top-left corner.
 
-3. **Start the development server**:
-   ```bash
-    npm start
+### 👤 Account Information Page
+- Displays the logged-in user’s **email** and **password**.  
+- Users can **update** their account information (saved in localStorage).  
+- Includes a **“Back to Home”** button for easy navigation.
 
-4. **Open the application**:
-    ```bash
-    The application will open in your default browser at `http://localhost:3000`.
+---
 
-## Folder Structure
+## 🛠️ Tech Stack
 
-The project is structured as follows:
+| Category | Technology |
+|-----------|-------------|
+| **Frontend** | React  |
+| **Styling** | Tailwind CSS |
+| **Routing** | React Router |
+| **State Management** | React Hooks (`useState`, `useEffect`) |
+| **Data Storage** | Browser localStorage |
 
-- **`public/`**: Contains the HTML template and other static assets.
-- **`src/`**: Contains the React application's source code.
-  - **`components/`**: Contains all the React components.
-  - **`pages/`**: Contains the different pages of the application.
-  - **`App.js`**: The root component of the application.
-  - **`index.js`**: The entry point of the application.
+---
 
-   
+## 🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone the Repository
+```bash
+git clone <your-repo-url>
+cd <your-project-directory>
