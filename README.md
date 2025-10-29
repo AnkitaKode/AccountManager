@@ -1,7 +1,7 @@
 # 💼 AccountManager
 
 A modern and responsive **React application** that allows users to **create, log in, and manage accounts**.  
-This lightweight app is built with **React (v16+)** and **Tailwind CSS**, featuring a clean UI, smooth navigation, and simple localStorage-based authentication.
+This lightweight app is built with **React ** and **Tailwind CSS**, featuring a clean UI, smooth navigation, and simple localStorage-based authentication.
 
 ---
 
